@@ -11,6 +11,9 @@ export function contentPageInicial(){
     titulo.textContent = "Lanchonete Blaston";
     img.src = hamburguerImage;
     para.textContent = "Esse hamburguer pode ser seu. Pede ai po";
+    para.innerHTML = para.innerHTML.replace("Pede ai po","<span>Pede ai po</span>");
+    para.innerHTML = para.innerHTML.replace("hamburguer","<span>hamburguer</span>");
+
     encomenda.textContent = "ENCOMENDAR"
     
     divContent.append(titulo,img,para,encomenda);

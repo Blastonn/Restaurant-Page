@@ -9,7 +9,9 @@ body {
     background-position: center;
     margin: 0;
   }
-
+span{
+  background-color: yellow;
+}
 .image{
     width: 400px;
     height: 250px;
@@ -92,7 +94,7 @@ button:hover{
   margin-top: 35px;
   color: black;
   font-size: 1.5rem;
-  background-color: red;
+  background-color: orange;
   font-weight: bolder;
   letter-spacing: 0.2rem;
   height: 50px;
