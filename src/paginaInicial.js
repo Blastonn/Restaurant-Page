@@ -6,12 +6,14 @@ export function contentPageInicial(){
     const titulo = document.createElement("h1");
     const img = document.createElement("img");
     const para = document.createElement("p");
-
+    const encomenda = document.createElement("button");
+    encomenda.classList.add("encomendar");
     titulo.textContent = "Lanchonete Blaston";
     img.src = hamburguerImage;
     para.textContent = "Esse hamburguer pode ser seu. Pede ai po";
+    encomenda.textContent = "ENCOMENDAR"
     
-    divContent.append(titulo,img,para);
+    divContent.append(titulo,img,para,encomenda);
     
     img.classList.add("image");
 };
