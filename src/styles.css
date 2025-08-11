@@ -10,3 +10,14 @@ body {
     background-position: center;
     background-image: url(./img/Hamburguer_De_Lanchonete_PNG_Transparente.png);
 }
+nav{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+#content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
