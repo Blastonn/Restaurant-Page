@@ -1,0 +1,12 @@
+body {
+    background-color: rebeccapurple;
+  }
+
+.image{
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(./img/Hamburguer_De_Lanchonete_PNG_Transparente.png);
+}
