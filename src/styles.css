@@ -20,6 +20,20 @@ span{
     background-position: center;
     background-image: url(./img/Hamburguer_De_Lanchonete_PNG_Transparente.png);
 }
+
+.hamburguers{
+  width: 250px;
+  height: 150px;
+}
+.batatas{
+  width: 100px;
+  height: 130px;
+}
+.sucos{
+  width: 200px;
+  height: 150px;
+  
+}
 header{  
   display: flex;
   height: 40px;
@@ -82,11 +96,15 @@ button:hover{
 .containerMenu{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: repeat(4, 1fr);
-  width: 60%;
+  grid-template-rows: 0.2fr;
   height: auto;
   text-align: center;
+  justify-items: center;
   border: 3px solid black;
+}
+
+.desc{
+  font-size: 1rem;
 }
 
 .encomendar{
